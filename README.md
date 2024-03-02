@@ -1,2 +1,5 @@
 # SPC-control-charts
-Repository related to the analysis and monte carlo simulator of the article "Proposal and appraisal of new indicators and performance metrics for the project monitoring"
+Repository related to the analysis and monte carlo simulator of the article "Proposal and appraisal of new indicators and performance metrics for the project monitoring". It is organized as follows:
+
+- data: divided into 5 sections, for the raw/original dataframe; for the indicators processed (more than 30 dataframes), for the control limits from the original data; for the confusion matrix, which is the application of the threshold on the indicators processed and for the performance indicators
+- notebooks: contains the analysis ands scripts to analyze and create the overall dataframes. Both are divided into four sections, one for the Monte Carlo simulator, one for the control limit creation and visualization, one for the confusion matrix of the indicators and the last one for the performance indicators output
